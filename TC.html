@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>TCP/IP</TITLE>
+	</head>
+	<body background="imagenes/fondo2.jpg">
+	<table width="500" cellpadding="10" align="center"><br><br>
+	<tr bgcolor="#FFD51A">
+	<td align="center" colspan="3"><h1>TCP/IP</h1></td>
+	</tr>
+	<tr bgcolor="#D5FFDD">
+	<td align="justify" colspan="3" >
+
+El conjunto de protocolos TCP/IP es unos de los más utilizados en servicios de red. Hacen referencia a dos protocolos que son:<br><br>
+
+    TCP (Transmission Control Protocol) Protocolo de Control de Transmisión.: Este protocolo se encarga de crear “conexiones” entre sí para que se cree un flujo de datos. Este proceso garantiza que los datos sean entregados en destino sin errores y en el mismo orden en el que salieron. También se utiliza para distinguir diferentes aplicaciones en un mismo dispositivo.<br>
+    IP (Internet Protocol) Protocolo de Internet.: Este protocolo se encarga del envío y recepción de datos en bloques. El envío lo hace siempre por la mejor ruta pero sin garantizar que llegue a alcanzar el destino.
+<br><br>
+Este conjunto de protocolos se utiliza para resolver la transmisión de datos que se genera en una red ya sea de forma interna o externa. La unión de estos protocolos se realiza para asegurar que la información llegue siempre por la mejor ruta y de forma correcta a destino.
+<br><br>
+<h2>Caracteristicas:</h2><br>
+Dentro del modelo TCP/IP existen cuatro niveles o capas que hay que tener en cuenta:
+<br><br>
+
+<li>Nivel de enlace o acceso a la red: es la primera capa del modelo y ofrece la posibilidad de acceso físico a la red (que bien puede ser en anillo, ethernet, etc.), especificando el modo en que los datos deben enrutarse independientemente del tipo de red utilizado.</li>
+<br><br>
+<li>Nivel de red o Internet: proporciona el paquete de datos o datagramas y administra las direcciones IP. (Los datagramas son paquetes de datos que constituyen el mínimo de información en una red). Esta capa es considerada la más simportante y engloba protocolos como IP,ARP, ICMP, IGMP y RARP.</li>
+<br><br>
+<li>Nivel de Transporte: permiten conocer el estado de la transmisión así como los datos de enrutamiento y utilizan los puertos para asociar un tipo de aplicación con un tipo de dato.</li>
+<br><br>
+<li>Nivel de Aplicación: es la parte superior del protocolo TCP/IP y suministra las aplicaciones de red tip Telnet, FTP o SMTP, que se comunican con las capas anteriores (con protocolos TCP o UDP).<br></li><br>
+
+La capas del modelo TCP/IP coinciden con algunas capas del modelo teórico OSI, aunque tienen tareas mucha más diversas.
+
+La importancia del protocolo TCP/IP es muy elevada ya que permite que los datos enviados lleguen a su destino sin errores y bajo la misma forma en la que fueron enviados.<br><br>
+
+<h2>Protocolo IP</h2>
+Los datos en el protocolo IP están organizados en mensajes. Estos mensajes se denominan muchas veces paquetes y algunas veces datagramas, pero en términos sencillos todos ellos se refieren más o menos al mismo concepto. Cada datagrama IP incluye tanto una cabecera (que especifica origen, destino, y otra información acerca de los datos) como los propios datos del mensaje.
+<br><br>
+Protocolo TCP
+El protocolo de control de transmisión permite la transmisión de información en ambas direcciones. Por lo tanto, los sistemas informáticos que se comunican mediante TCP pueden enviar y recibir datos de forma simultánea, como si se tratase de una llamada telefónica. En este contexto, las unidades de transmisión básicas de las que echa mano el protocolo son segmentos (paquetes) que, aparte de los datos de uso, también pueden contener información de control y están limitados a un tamaño de 1500 bytes. El establecimiento y la interrupción de las conexiones, que se pueden catalogar como conexiones de terminal a terminal, así como la transmisión de datos en sí, la realiza el software TCP en la pila de protocolos de red del sistema operativo correspondiente.
+<br><br>
+Direccion IP
+Una dirección IP (IP address) sirve para identificar y localizar a un dispositivo inequívocamente en una red interna o externa. Por ello, supone la base de la transmisión de información desde el emisor hasta el destinatario correcto. Si un dispositivo quiere enviar un paquete de datos, el router correspondiente se guía por el llamado IP header y coteja la IP de origen con la IP de destino. Si los identificadores de red coinciden, es que el emisor y el destinatario se encuentran en la misma red, así que el paquete se entrega directamente.
+
+	</td></tr>
+	<tr bgcolor="#D5FFDD">
+	<Td><img src="imagenes/protocolo.png" height="200" width="400" border="2"></td><td><img src="imagenes/tcp_ip.png" height="200" width="400" border="2"></td><td><img src="imagenes/grafico.png " height="200" width="400" border="2"></td></tr>
+	<table align="right">
+	<tr><br>
+	<td align="center"><h1><a href="index.html">Menu</h1></td>
+	</body>
+</html>
